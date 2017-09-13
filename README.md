@@ -25,7 +25,7 @@ This gives all `solutions` as:
   [ [ 2, 0, 3, 1 ], 10, 16 ],
   [ [ 2, 0, 4, 0 ], 10, 16 ] ]
 ~~~
-Each item in this array is a solution, each solution is given as `[amounts, weight, value]`.
+Each item in this array is a solution, each solution is given as `[amount, weight, value]`. Where `amount` is an array of amount of each object in this solution respectively, `weight` is total weight of these objects and `value` is their total value.
 
 ## Contribution
-Any best solution is welcome, please mail me at shiwen.l.ating@gmail.com, or create a pull request. Thks!
+Any better solution is welcome, please mail me at shiwen.l.ating@gmail.com, or create a pull request. Thks!
