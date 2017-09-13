@@ -1,3 +1,5 @@
+const dotProduct = require('./utils').dotProduct
+
 module.exports = (amounts, weights, cap) => {
   const dim = amounts.length
   const maxAmounts = amounts.slice()
@@ -29,10 +31,4 @@ module.exports = (amounts, weights, cap) => {
   }
 
   return ret
-}
-
-function dotProduct(v1, v2) {
-  return v1.reduce((sum, val, idx) => {
-    return sum + val * v2[idx]
-  }, 0)
 }
