@@ -1,5 +1,5 @@
 # knapsack
-An algorithm to solve the knapsack problem
+An algorithm to solve the "knapsack problem" with respective bound, continuous weights and continuous values
 
 ## Usage
 ~~~shell
